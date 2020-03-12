@@ -1,8 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+a{
+	text-decoration: none;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,7 +47,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,3 +63,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+div .top-log{
+	float:right;
+}
+nav{
+  /*display:inline-block;*/
+  /*width:45%;*/
+  /*background-color: lightpink;*/
+  margin:5%;
+  }
+  nav li{
+	  display:inline-block;
+	  padding:31px;
+	 /* color:grey;*/
+	  /*background-color:yellow;*/
+	  margin:2%;
+	  list-style-type: none;
+  }
+  li a{
+       color:grey;
+  }
+h1{
+  font-size:90px;
+}
+div.slogan{
+  text-align:center;
+  display:inline-block;
+  width:60%;
+  margin-top: 5%;
+  margin-left:10%;
+  margin-bottom:10%;
+  
+}
+div.top-image{
+  float: right;
+  margin-right:20px;
+}
+h2{
+	font-size: 50px;
+}
+.top-content{
+	line-height: 1.5;
+	word-spacing:3px;
+}
+.paragraph1 {
+  display:inline-block;
+  width:49%;
+  margin-top:5%;
+  margin-right:5px;
+  margin-bottom:5%;
+  margin-left:1%;
+  text-align: left;
+}
+.paragraph2{
+  display:inline-block;
+  width:49%;
+  margin-top:5%;
+  text-align: left;
+  margin-bottom:5%;
+  /*margin-right:2%;*/
+}
+
+ .middle-img{
+  display:block;
+	width:100%;
+	background-size:cover;
+  }
+  .bottom-content{
+	  line-height: 1.5;
+	  word-spacing: 3px;
+  }
+.paragraph3{
+  display:inline-block;
+  width:30%;
+  text-align: left;
+  margin:5% 10px 10px 50px
+}
+.paragraph4{
+  display:inline-block;
+  width:30%;
+  text-align: left;
+  margin:5% 5px;
+}
+.paragraph5{
+  display:inline-block;
+  width:30%;
+  text-align: left;
+  margin:5% 5px;
+}
+.address{
+line-height: double;
+}
+p{
+	font-size:20px;
+}
+.address h2{
+	margin-top:5%;
+}
+.phone{
+	margin:30px 0 30px 0;
+}
+footer div{
+	text-align:center;
+}
+
+
