@@ -1,3 +1,6 @@
+a{
+	text-decoration: none;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,7 +47,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -59,10 +63,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+div .top-log{
+	float:right;
+}
 nav{
-  display:inline-block;
- 
+  /*display:inline-block;*/
+  /*width:45%;*/
+  /*background-color: lightpink;*/
+  margin:5%;
+  }
+  nav li{
+	  display:inline-block;
+	  padding:10px;
+	 /* color:grey;*/
+	  /*background-color:yellow;*/
+	  margin:2%;
+	  list-style-type: none;
+  }
+  li a{
+       color:grey;
   }
 h1{
   font-size:90px;
@@ -70,7 +89,8 @@ h1{
 div.slogan{
   text-align:center;
   display:inline-block;
-  width:75%;
+  width:40%;
+  margin: 10%;
 }
 div.top-image{
   
@@ -80,29 +100,63 @@ div.top-image{
   display:inline-block;
   width:49%;*/
 }
+h2{
+	font-size: 50px;
+}
 .paragraph1 {
-  dispaly:inline-block;
-  width:30%;
+  display:inline-block;
+  width:45%;
+  margin-top:5%;
+  margin-right:15px;
+  margin-bottom:5%;
+  margin-left:30px;
+  text-align: left;
 }
 .paragraph2{
   display:inline-block;
-  width:30%;
+  width:45%;
+  margin-top:5%;
+  text-align: left;
+  margin-bottom:5%;
+  margin-right:2px;
 }
 
  .middle-img{
-  float:middle; 
-  
-}
+  display:block;
+	margin-left: auto; 
+	margin-right:auto;
+  }
 .paragraph3{
   display:inline-block;
   width:30%;
+  text-align: left;
+  margin:5% 10px 10px 50px
 }
 .paragraph4{
   display:inline-block;
   width:30%;
+  text-align: left;
+  margin:5% 5px;
 }
 .paragraph5{
   display:inline-block;
   width:30%;
+  text-align: left;
+  margin:5% 5px;
+}
+.address{
+line-height: double;
+}
+p{
+	font-size:20px;
+}
+.address h2{
+	margin-top:5%;
+}
+.phone{
+	margin:30px 0 30px 0;
+}
+footer div{
+	text-align:center;
 }
 
